@@ -148,3 +148,139 @@ header .cart-info {
   letter-spacing: 0.1em;
   font-family: Montserrat, sans-serif;
 }
+
+.images {
+  height: 300px;
+  width: 100px;
+}
+
+.carousel-text {
+  position: absolute;
+  z-index: 6;
+  top: 20%;
+  left: 10%;
+}
+
+.text-head {
+  min-width: 347px;
+  max-width: 347px;
+}
+
+.text-head h2 {
+  font-size: 41px;
+  line-height: 51px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+}
+
+.text-head h2 span {
+  color: red;
+}
+
+.text-body {
+  min-width: 429px;
+  max-width: 429px;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #6d6a6a;
+}
+
+.text-image {
+  margin-top: 10px;
+}
+
+#flower-items {
+  padding-top: 80px;
+  padding-bottom: 75px;
+  height: 400px;
+}
+
+#flower-items .flower-categories li {
+  margin-right: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#flower-items .flower-categories a {
+  text-decoration: none;
+  color: #1b1b1b;
+  font-family: Montserrat, sans-serif;
+}
+
+#flower-items .flower-categories a:hover {
+  color: red;
+}
+
+#flower-items .category-filter {
+  vertical-align: middle;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+#flower-items .category-filter h6 {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+#flower-items .category-filter i {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#flower-items .item {
+  margin: 0 0 40px;
+  overflow: hidden;
+}
+
+#flower-items .item .item-image {
+  overflow: hidden;
+}
+
+#flower-items .item .item-image img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+#flower-items .item .item-image:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#flower-items .item-body {
+  text-align: center;
+  margin: 23px 0 0;
+}
+
+#flower-items .item-body .price-second {
+  color: #2d2b2b;
+}
+
+#flower-items .item-body h6 {
+  color: #1b1b1b;
+  font-family: Montserrat, sans-serif;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+#flower-items .item-body a {
+  color: #afafaf;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
+}

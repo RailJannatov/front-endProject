@@ -1,0 +1,35 @@
+.images {
+  height: 300px;
+  width: 100px;
+}
+.carousel-text {
+  position: absolute;
+  z-index: 6;
+  top: 20%;
+  left: 10%;
+}
+.text-head {
+  min-width: 347px;
+  max-width: 347px;
+  h2 {
+    font-size: 41px;
+    line-height: 51px;
+    font-weight: 400;
+    font-family: $title-family;
+    span {
+      color: red;
+    }
+  }
+}
+.text-body {
+  min-width: 429px;
+  max-width: 429px;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: rgb(109, 106, 106);
+}
+.text-image {
+  margin-top: 10px;
+}
