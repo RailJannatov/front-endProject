@@ -1,0 +1,32 @@
+#surprise-your-valentine {
+  height: 500px;
+  background-color: #f7f7f7;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  .surprise-your-valentine-body {
+    padding: 31px 15% 0px 70px;
+    h2 {
+      font-size: 38px;
+      line-height: 1.447em;
+      margin: 0 0 19px;
+      font-family: $title-family;
+    }
+    p {
+      font-size: 17px;
+      line-height: 29px;
+      margin-top: 27px;
+      font-family: $title-text-family;
+      color: #6d6a6a;
+    }
+    .valentine-word {
+      color: #f34f3f;
+    }
+    .icon-info {
+      font-size: 17px;
+
+      img {
+        margin-right: 13px;
+      }
+    }
+  }
+}

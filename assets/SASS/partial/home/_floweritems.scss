@@ -1,7 +1,6 @@
 #flower-items {
   padding-top: 80px;
   padding-bottom: 75px;
-  height: 400px;
 
   .flower-categories {
     li {
@@ -47,6 +46,7 @@
   .item {
     margin: 0 0 40px;
     overflow: hidden;
+    cursor: pointer;
 
     .item-image {
       overflow: hidden;
