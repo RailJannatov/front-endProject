@@ -166,6 +166,7 @@ header .cart-info {
   max-width: 347px;
 }
 
+.text-head h1,
 .text-head h2 {
   font-size: 41px;
   line-height: 51px;
@@ -173,6 +174,7 @@ header .cart-info {
   font-family: "Playfair Display", serif;
 }
 
+.text-head h1 span,
 .text-head h2 span {
   color: red;
 }
@@ -321,4 +323,48 @@ header .cart-info {
 
 #surprise-your-valentine .surprise-your-valentine-body .icon-info img {
   margin-right: 13px;
+}
+
+#flower-experts .flower-experts-title {
+  padding: 0px 29%;
+  padding-top: 138px;
+  padding-bottom: 60px;
+}
+
+#flower-experts .flower-experts-title h2 {
+  font-size: 38px;
+  line-height: 1.447em;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin: 0 0 19px;
+}
+
+#flower-experts .flower-experts-title p {
+  font-size: 17px;
+  line-height: 29px;
+  margin: 14px 0 0;
+  font-family: Lora, serif;
+  color: #6d6a6a;
+}
+
+#flower-experts .expert-item .expert-info {
+  margin: 18px 0 0;
+}
+
+#flower-experts .expert-item h5 {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#flower-experts .expert-item p {
+  font-size: 12px;
+  color: #afafaf;
+  margin: 2px 0 4px;
 }
