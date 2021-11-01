@@ -325,6 +325,10 @@ header .cart-info {
   margin-right: 13px;
 }
 
+#flower-experts {
+  padding-bottom: 148px;
+}
+
 #flower-experts .flower-experts-title {
   padding: 0px 29%;
   padding-top: 138px;
@@ -367,4 +371,67 @@ header .cart-info {
   font-size: 12px;
   color: #afafaf;
   margin: 2px 0 4px;
+}
+
+#join-colorful-bunch {
+  background-image: url("/assets/image/backgrounds/h3-background-img.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#join-colorful-bunch .context {
+  padding-top: 183px;
+  padding-bottom: 185px;
+}
+
+#join-colorful-bunch .join-title h3 {
+  color: #ffffff;
+  margin: 0 0 19px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+#join-colorful-bunch input[type="email"] {
+  color: #959595;
+  font-size: 12px;
+  background-color: white;
+  margin: 0px -6px 15px;
+  padding: 19px 18px;
+  font-family: Montserrat, sans-serif;
+  width: 27%;
+  border: none;
+}
+
+#join-colorful-bunch input[type="submit"] {
+  width: 13%;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  padding: 19px 43px;
+  color: #fff;
+  background-color: #f34f3f;
+  border: none;
+  text-transform: uppercase;
+}
+
+#blog {
+  background-color: #f8f8f8;
+}
+
+#blog .blog-title h2 {
+  font-size: 38px;
+  line-height: 1.447em;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin: 0 0 19px;
+}
+
+#blog .blog-title p {
+  font-size: 17px;
+  line-height: 29px;
+  font-family: "Lora", serif;
+  color: #6d6a6a;
 }

@@ -1,0 +1,20 @@
+#blog {
+  background-color: #f8f8f8;
+  .blog-title {
+    h2 {
+      font-size: 38px;
+      line-height: 1.447em;
+      color: #2b2b2b;
+      font-family: "Playfair Display", serif;
+      font-weight: 400;
+      margin: 0 0 19px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 29px;
+      font-family: "Lora", serif;
+      color: #6d6a6a;
+    }
+  }
+}
