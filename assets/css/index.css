@@ -418,6 +418,7 @@ header .cart-info {
 
 #blog {
   background-color: #f8f8f8;
+  padding-bottom: 81px;
 }
 
 #blog .blog-title {
@@ -501,4 +502,67 @@ header .cart-info {
   padding: 0 35px;
   font-family: "Lora", serif;
   margin: 12px 0 0;
+}
+
+#mini-slider {
+  padding-top: 84px;
+  padding-bottom: 112px;
+}
+
+#mini-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+}
+
+#mini-slider .slick-next {
+  right: 0;
+  color: transparent;
+  border: none;
+  background-color: #fff;
+  width: 90px;
+  background-size: cover;
+  background-image: url(/assets/image/slider-images/right-arrow.png);
+}
+
+#mini-slider .slick-prev {
+  left: 0;
+}
+
+#mini-slider .content {
+  text-align: center;
+}
+
+#mini-slider .content .slider-image {
+  display: inline-block;
+}
+
+#mini-slider .content .slider-body {
+  padding: 0 28%;
+}
+
+#mini-slider .content .slider-body p {
+  color: #4b4747;
+  font-family: Lora, serif;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+#mini-slider .content .slider-body .author-name {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: block;
+}
+
+#mini-slider .content .slider-body .author-job {
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-transform: none;
+  color: #afafaf;
 }
