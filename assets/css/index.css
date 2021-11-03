@@ -1507,3 +1507,85 @@ header .cart-info {
     padding: 10px;
   }
 }
+
+#blogMansoryIntro {
+  background-color: #fafaf9;
+  padding: 59px 144px;
+}
+
+#blogMansoryIntro .blogMansory-text h1 {
+  font-size: 50px;
+  line-height: 1.32em;
+  color: #0e0e0e;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+#blogMansoryIntro .blogMansory-text p {
+  font-family: Lora, serif;
+  font-size: 17px;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #6d6a6a;
+}
+
+#mini-articles .item-image {
+  margin: 0 0 29px;
+  position: relative;
+  overflow: hidden;
+}
+
+#mini-articles .item-image img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#mini-articles .item-image:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#mini-articles .item-image .date-in-image {
+  position: absolute;
+  font-size: 10px;
+  position: absolute;
+  background-color: #fff;
+  padding: 12px 16px 10px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  top: 10px;
+  left: 10px;
+  letter-spacing: 0.15em;
+  line-height: 1em;
+  z-index: 8888;
+  cursor: pointer;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+#mini-articles .item-image .date-in-image:hover {
+  color: #f34f3f;
+}
+
+#mini-articles .item-body {
+  margin: 0 0 3px;
+  text-align: center;
+}
+
+#mini-articles .item-body h3 {
+  font-size: 22px;
+  line-height: 1.363em;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin: 0 0 3px;
+}
+
+#mini-articles .item-body p {
+  font-size: 15px;
+  color: #6d6a6a;
+  padding: 0 35px;
+  font-family: "Lora", serif;
+  margin: 12px 0 0;
+}
