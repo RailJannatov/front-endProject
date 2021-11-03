@@ -52,6 +52,9 @@ footer {
         letter-spacing: 0.2em;
         text-decoration: none;
         color: #afafaf;
+        &:hover {
+          color: #f34f3f;
+        }
       }
     }
   }

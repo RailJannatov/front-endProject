@@ -4,6 +4,24 @@
   .slick-arrow {
     position: absolute;
     top: 50%;
+    z-index: 999;
+    cursor: pointer;
+  }
+  .prev-style {
+    font-size: 26px;
+    left: 18%;
+    color: #d3cccc;
+    &:hover {
+      color: rgb(95, 92, 92);
+    }
+  }
+  .next-style {
+    font-size: 26px;
+    right: 18%;
+    color: #d3cccc;
+    &:hover {
+      color: rgb(95, 92, 92);
+    }
   }
   .slick-next {
     right: 0;

@@ -1,0 +1,25 @@
+#about-us-intro {
+  background: url("/assets/image/backgrounds/about-us-title-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 70px;
+  .context {
+    text-align: center;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 1.32em;
+    font-family: "Playfair Display", serif;
+  }
+  p {
+    font-family: Lora, serif;
+    font-size: 17px;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #6d6a6a;
+    margin: 8px 0 0;
+  }
+}
