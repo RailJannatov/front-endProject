@@ -42,3 +42,41 @@
     }
   }
 }
+@media screen and (max-width: 992px) {
+  #flower-experts {
+    .flower-experts-title {
+      padding: 0px 0px;
+
+      padding-top: 138px;
+      padding-bottom: 60px;
+    }
+  }
+}
+@media screen and(max-width:768px) {
+  #flower-experts {
+    .flower-experts-title {
+      padding: 0px 6%;
+
+      padding-top: 138px;
+      padding-bottom: 60px;
+    }
+    .expert-item {
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+@media screen and (max-width: 567px) {
+  #flower-experts {
+    .flower-experts-title {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+  .expert-item {
+    margin-bottom: 30px;
+  }
+}

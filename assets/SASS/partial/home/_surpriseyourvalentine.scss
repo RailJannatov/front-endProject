@@ -1,10 +1,14 @@
 #surprise-your-valentine {
-  height: 500px;
   background-color: #f7f7f7;
   padding-top: 120px;
   padding-bottom: 120px;
+  iframe {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
   .surprise-your-valentine-body {
-    padding: 31px 15% 0px 70px;
+    padding: 31px 10% 0px 8px;
     h2 {
       font-size: 38px;
       line-height: 1.447em;
@@ -16,6 +20,7 @@
       line-height: 29px;
       margin-top: 27px;
       font-family: $title-text-family;
+      margin-bottom: 32px;
 
       color: #6d6a6a;
     }
@@ -29,6 +34,18 @@
       margin-bottom: 19px;
       img {
         margin-right: 13px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 567px) {
+  #surprise-your-valentine {
+    .surprise-your-valentine-body {
+      h2 {
+        font-size: 30px;
+        line-height: 1.447em;
+        margin: 0 0 19px;
+        font-family: $title-family;
       }
     }
   }
