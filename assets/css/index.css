@@ -951,3 +951,509 @@ footer .footer-partners .social-navigations a:hover {
     margin-bottom: 12px;
   }
 }
+
+header {
+  padding-bottom: 27px;
+}
+
+header .bar-icon {
+  display: none;
+}
+
+header .main-nav {
+  margin-left: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 47px;
+}
+
+header .main-nav img {
+  height: 25px;
+  width: 212px;
+}
+
+header .sub-menu .shop-drop-menu-title {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  text-transform: none;
+  line-height: 1.1em;
+  color: #1b1b1b;
+}
+
+header .nav-list {
+  display: inline-block;
+  margin-left: 148px;
+}
+
+header .nav-list .head-links {
+  margin-left: 64px;
+}
+
+header .nav-list .head-links li {
+  position: relative;
+  padding: 0 29px;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+
+header .nav-list .head-links li .shop-link {
+  position: absolute;
+  left: -700px !important;
+}
+
+header .nav-list .head-links li .sub-menu-links {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 77px;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-1em);
+  transform: translateY(-1em);
+  z-index: -1;
+  background-color: #fff;
+  -webkit-transition: all 0.7s ease-in-out 0s, visibility 0s;
+  -webkit-transition: all 0.7s ease-in-out, visibility 0s;
+  transition: all 0.7s ease-in-out, visibility 0s;
+}
+
+header .nav-list .head-links li .sub-menu-links ul {
+  padding: 19px 0;
+}
+
+header .nav-list .head-links li .sub-menu-links li {
+  width: 229px;
+}
+
+header .nav-list .head-links li .sub-menu-links li a {
+  font-size: 13px;
+  color: #737373;
+  line-height: 19px;
+}
+
+header .nav-list .head-links li:hover .sub-menu-links {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+header .nav-list .head-links li a {
+  color: #1b1b1b;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 21px;
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  font-family: Montserrat, sans-serif;
+}
+
+header .nav-list .head-links li a::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  top: 14px;
+  background-color: black;
+  left: 0;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+header .nav-list .head-links li a:hover::before {
+  width: 100%;
+}
+
+header .search-icon i {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-size: 19px;
+}
+
+header .shopping-bag-icon {
+  margin-left: 28px;
+  position: relative;
+}
+
+header .shopping-bag-icon i {
+  position: relative;
+  font-size: 17px;
+}
+
+header .shopping-bag-icon i .items-in-bag {
+  position: absolute;
+  top: -6px;
+  left: 8px;
+  background-color: red;
+  color: #fff;
+  border-radius: 18px;
+  height: 15px;
+}
+
+header .cart-info {
+  display: block;
+  color: #1b1b1b;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0 20px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  font-family: Montserrat, sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  header .main-nav {
+    display: inline-block;
+  }
+  header .nav-list {
+    margin-left: 0;
+  }
+  header .search-icon {
+    display: inline-block;
+    position: absolute;
+    right: 127px;
+  }
+  header .shoppping-bag-icon {
+    display: inline-block;
+    right: 24px;
+  }
+  header .cart-info {
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+  }
+  header .bar-icon {
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header .main-nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .bar-icon {
+    display: block;
+  }
+  header .bar-icon i {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  header .nav-list,
+  header .search-icon,
+  header .shopping-bag-icon,
+  header .cart-info {
+    display: none;
+  }
+}
+
+#about-us-intro {
+  background: url("/assets/image/backgrounds/about-us-title-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 110px;
+}
+
+#about-us-intro .context {
+  text-align: center;
+}
+
+#about-us-intro h1 {
+  font-size: 50px;
+  line-height: 1.32em;
+  font-family: "Playfair Display", serif;
+}
+
+#about-us-intro p {
+  font-family: Lora, serif;
+  font-size: 17px;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #6d6a6a;
+  margin: 8px 0 0;
+}
+
+#goal-page {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#goal-page .signature-image {
+  margin-bottom: 40px;
+}
+
+#goal-page iframe {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#goal-page .surprise-your-valentine-body {
+  padding: 31px 10% 0px 8px;
+}
+
+#goal-page .surprise-your-valentine-body h2 {
+  font-size: 38px;
+  line-height: 1.447em;
+  margin: 0 0 19px;
+  font-family: "Playfair Display", serif;
+}
+
+#goal-page .surprise-your-valentine-body p {
+  font-size: 17px;
+  line-height: 29px;
+  margin-top: 27px;
+  font-family: Lora, serif;
+  margin-bottom: 32px;
+  color: #6d6a6a;
+}
+
+#goal-page .surprise-your-valentine-body .valentine-word {
+  color: #f34f3f;
+}
+
+#goal-page .surprise-your-valentine-body .icon-info {
+  font-size: 17px;
+  font-family: Lora, serif;
+  color: #6d6a6a;
+  margin-bottom: 19px;
+}
+
+#goal-page .surprise-your-valentine-body .icon-info img {
+  margin-right: 13px;
+}
+
+@media screen and (max-width: 567px) {
+  #goal-page .surprise-your-valentine-body h2 {
+    font-size: 30px;
+    line-height: 1.447em;
+    margin: 0 0 19px;
+    font-family: "Playfair Display", serif;
+  }
+}
+
+#about-us-flower-experts {
+  padding-bottom: 148px;
+  background-color: #f8f8f8;
+}
+
+#about-us-flower-experts .flower-experts-title {
+  padding: 0px 29%;
+  padding-top: 138px;
+  padding-bottom: 60px;
+}
+
+#about-us-flower-experts .flower-experts-title h2 {
+  font-size: 38px;
+  line-height: 1.447em;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin: 0 0 19px;
+}
+
+#about-us-flower-experts .flower-experts-title p {
+  font-size: 17px;
+  line-height: 29px;
+  margin: 14px 0 0;
+  font-family: Lora, serif;
+  color: #6d6a6a;
+}
+
+#about-us-flower-experts .expert-item .expert-info {
+  margin: 18px 0 0;
+}
+
+#about-us-flower-experts .expert-item h5 {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#about-us-flower-experts .expert-item p {
+  font-size: 12px;
+  color: #afafaf;
+  margin: 2px 0 4px;
+}
+
+@media screen and (max-width: 992px) {
+  #flower-experts .flower-experts-title {
+    padding: 0px 0px;
+    padding-top: 138px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #flower-experts .flower-experts-title {
+    padding: 0px 6%;
+    padding-top: 138px;
+    padding-bottom: 60px;
+  }
+  #flower-experts .expert-item {
+    margin-bottom: 30px;
+  }
+  #flower-experts h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  #flower-experts .flower-experts-title h2 {
+    font-size: 30px;
+  }
+  .expert-item {
+    margin-bottom: 30px;
+  }
+}
+
+#product-list {
+  background-color: #fafaf9;
+  padding: 59px 144px;
+}
+
+#product-list .product-list-intro-text h1 {
+  font-size: 50px;
+  line-height: 1.32em;
+  color: #0e0e0e;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+#product-list .product-list-intro-text p {
+  font-family: Lora, serif;
+  font-size: 17px;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #6d6a6a;
+}
+
+#portfolio-intro {
+  padding-bottom: 75px;
+}
+
+#portfolio-intro .portfolio-intro-text {
+  background-color: #fafaf9;
+  padding: 59px 144px;
+}
+
+#portfolio-intro .portfolio-intro-text h1 {
+  font-size: 50px;
+  line-height: 1.32em;
+  color: #0e0e0e;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+#portfolio-flowers .flower-options-categories li {
+  margin-right: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1b1b1b;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+}
+
+#portfolio-flowers .flower-options-categories li:hover {
+  color: red;
+}
+
+#portfolio-flowers .flower-options-categories .active {
+  color: red;
+}
+
+#portfolio-flowers h6 {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+#portfolio-flowers .item {
+  margin: 0 0 40px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#portfolio-flowers .item .item-image {
+  overflow: hidden;
+}
+
+#portfolio-flowers .item .item-image img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+#portfolio-flowers .item .item-image:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#portfolio-flowers .item-body {
+  text-align: center;
+  margin: 23px 0 0;
+}
+
+#portfolio-flowers .item-body h6 {
+  color: #1b1b1b;
+  font-family: Montserrat, sans-serif;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 0;
+  display: block;
+  text-align: initial;
+}
+
+#portfolio-flowers .item-body a {
+  margin: 3px 0 0;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-family: Montserrat, sans-serif;
+  display: block;
+  text-align: initial;
+  color: #6d6a6a;
+}
+
+#portfolio-flowers .item-body a:hover {
+  color: #f34f3f;
+}
+
+@media screen and (max-width: 768px) {
+  #flower-items .flower-categories-list li {
+    display: none;
+  }
+  #flower-items .flower-categories .category-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

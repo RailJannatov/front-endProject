@@ -1,0 +1,55 @@
+#goal-page {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  .signature-image {
+    margin-bottom: 40px;
+  }
+  iframe {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  .surprise-your-valentine-body {
+    padding: 31px 10% 0px 8px;
+    h2 {
+      font-size: 38px;
+      line-height: 1.447em;
+      margin: 0 0 19px;
+      font-family: $title-family;
+    }
+    p {
+      font-size: 17px;
+      line-height: 29px;
+      margin-top: 27px;
+      font-family: $title-text-family;
+      margin-bottom: 32px;
+
+      color: #6d6a6a;
+    }
+    .valentine-word {
+      color: #f34f3f;
+    }
+    .icon-info {
+      font-size: 17px;
+      font-family: $title-text-family;
+      color: #6d6a6a;
+      margin-bottom: 19px;
+      img {
+        margin-right: 13px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 567px) {
+  #goal-page {
+    .surprise-your-valentine-body {
+      h2 {
+        font-size: 30px;
+        line-height: 1.447em;
+        margin: 0 0 19px;
+        font-family: $title-family;
+      }
+    }
+  }
+}

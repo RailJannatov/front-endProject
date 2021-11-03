@@ -20,3 +20,19 @@ $('.flower-categories ul li').click(function(){
     return false;
 
 })
+
+$('.options').isotope({
+    itemSelector:".item",
+    layoutMode:"fitRows"
+});
+$('.flower-options-categories ul li').click(function(){
+    $('.flower-options-categories ul li').removeClass('active');
+    $(this).addClass('active');
+    
+    var selector = $(this).attr('data-filter');
+    $('.options').isotope({
+        filter:selector
+    });
+    return false;
+
+})
