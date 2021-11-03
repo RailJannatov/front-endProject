@@ -16,6 +16,7 @@
       line-height: 29px;
       margin-top: 27px;
       font-family: $title-text-family;
+
       color: #6d6a6a;
     }
     .valentine-word {
@@ -23,7 +24,9 @@
     }
     .icon-info {
       font-size: 17px;
-
+      font-family: $title-text-family;
+      color: #6d6a6a;
+      margin-bottom: 19px;
       img {
         margin-right: 13px;
       }

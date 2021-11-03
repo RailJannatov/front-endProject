@@ -3,6 +3,13 @@
   padding-bottom: 75px;
 
   .flower-categories {
+    .category-button {
+      display: none;
+      i {
+        margin-left: 4px;
+        transform: rotate(90deg);
+      }
+    }
     li {
       margin-right: $base * 8;
       display: inline-block;
@@ -81,6 +88,20 @@
       font-size: $base * 3;
       line-height: 1;
       text-decoration: none;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  #flower-items {
+    .flower-categories-list {
+      li {
+        display: none;
+      }
+    }
+    .flower-categories {
+      .category-button {
+        display: flex;
+      }
     }
   }
 }

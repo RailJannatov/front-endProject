@@ -1,4 +1,5 @@
 header {
+  padding-bottom: 27px;
   .bar-icon {
     display: none;
   }
@@ -141,6 +142,34 @@ header {
     font-family: $primary-family;
   }
 }
+@media screen and (max-width: 1200px) {
+  header {
+    .main-nav {
+      display: inline-block;
+    }
+    .nav-list {
+      margin-left: 0;
+    }
+    .search-icon {
+      display: inline-block;
+      position: absolute;
+      right: 127px;
+    }
+    .shoppping-bag-icon {
+      display: inline-block;
+      right: 24px;
+    }
+    .cart-info {
+      position: absolute;
+      right: 20px;
+      display: inline-block;
+    }
+    .bar-icon {
+      position: absolute;
+      right: 0;
+    }
+  }
+}
 
 @media screen and (max-width: 992px) {
   header {
@@ -151,6 +180,7 @@ header {
       display: block;
       i {
         font-size: 18px;
+        margin-right: 20px;
       }
     }
     .nav-list,
