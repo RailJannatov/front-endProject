@@ -1,6 +1,6 @@
 #blogMansoryIntro {
   background-color: #fafaf9;
-  padding: 59px 144px;
+  padding: 59px 0;
   .blogMansory-text {
     h1 {
       font-size: 50px;
@@ -16,6 +16,16 @@
       text-transform: none;
       letter-spacing: 0;
       color: #6d6a6a;
+    }
+  }
+}
+@media screen and(max-width:567px) {
+  #blogMansoryIntro {
+    padding: 59px 0;
+    .blogMansory-text {
+      h1 {
+        font-size: 36px;
+      }
     }
   }
 }

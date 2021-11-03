@@ -7,7 +7,7 @@ header .bar-icon {
 }
 
 header .main-nav {
-  margin-left: 26px;
+  margin-left: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -961,7 +961,7 @@ header .bar-icon {
 }
 
 header .main-nav {
-  margin-left: 26px;
+  margin-left: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1510,7 +1510,7 @@ header .cart-info {
 
 #blogMansoryIntro {
   background-color: #fafaf9;
-  padding: 59px 144px;
+  padding: 59px 0;
 }
 
 #blogMansoryIntro .blogMansory-text h1 {
@@ -1528,6 +1528,19 @@ header .cart-info {
   text-transform: none;
   letter-spacing: 0;
   color: #6d6a6a;
+}
+
+@media screen and (max-width: 567px) {
+  #blogMansoryIntro {
+    padding: 59px 0;
+  }
+  #blogMansoryIntro .blogMansory-text h1 {
+    font-size: 36px;
+  }
+}
+
+#mini-articles {
+  padding: 80px 0 5px 0;
 }
 
 #mini-articles .item-image {
@@ -1588,4 +1601,57 @@ header .cart-info {
   padding: 0 35px;
   font-family: "Lora", serif;
   margin: 12px 0 0;
+}
+
+#mini-articles .blog-quote {
+  background-color: #fdfbfc;
+  position: relative;
+}
+
+#mini-articles .blog-quote h4 {
+  font-size: 24px;
+  line-height: 1.5em;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+#mini-articles .blog-quote p {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+#mini-articles .quote-content {
+  text-align: center;
+  padding: 55px 25px 35px;
+}
+
+#mini-articles .quote-icon {
+  position: absolute;
+  top: 140px;
+  right: 14px;
+}
+
+#mini-articles .quote-icon img {
+  height: 70px;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+  width: 70px;
+}
+
+#mini-articles .blog-item {
+  margin-bottom: 25px;
+}
+
+#mini-articles .item-impact {
+  margin-top: -168px;
+}
+
+#mini-articles .care-item {
+  margin-top: -134px;
 }

@@ -1,4 +1,5 @@
 #mini-articles {
+  padding: 80px 0 5px 0;
   .item-image {
     margin: 0 0 29px;
     position: relative;
@@ -48,5 +49,48 @@
       font-family: "Lora", serif;
       margin: 12px 0 0;
     }
+  }
+  .blog-quote {
+    background-color: #fdfbfc;
+    position: relative;
+    h4 {
+      font-size: 24px;
+      line-height: 1.5em;
+      color: #2b2b2b;
+      font-family: "Playfair Display", serif;
+      font-weight: 400;
+    }
+    p {
+      color: #1b1b1b;
+      font-family: Montserrat;
+      font-size: 12px;
+      line-height: 2em;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+  }
+  .quote-content {
+    text-align: center;
+    padding: 55px 25px 35px;
+  }
+  .quote-icon {
+    position: absolute;
+    top: 140px;
+    right: 14px;
+    img {
+      height: 70px;
+      transform: rotateZ(180deg);
+      width: 70px;
+    }
+  }
+  .blog-item {
+    margin-bottom: 25px;
+  }
+  .item-impact {
+    margin-top: -168px;
+  }
+  .care-item {
+    margin-top: -134px;
   }
 }
