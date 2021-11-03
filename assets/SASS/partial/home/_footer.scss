@@ -59,3 +59,15 @@ footer {
     }
   }
 }
+@media screen and (max-width: 992px) {
+  footer {
+    .footer-partners {
+      display: block;
+      text-align: center;
+      .all-rights-reserved,
+      .visa-cards {
+        margin-bottom: $base * 3;
+      }
+    }
+  }
+}
