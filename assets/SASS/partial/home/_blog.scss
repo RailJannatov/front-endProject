@@ -73,3 +73,29 @@
     }
   }
 }
+@media screen and (max-width: 576px) {
+  #blog {
+    .blog-title {
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        padding: 0;
+      }
+    }
+    .blog-item {
+      .item-image {
+        padding: 25px;
+      }
+      .date-in-image {
+        top: 31px;
+        left: 33px;
+      }
+      .item-body {
+        h3 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
