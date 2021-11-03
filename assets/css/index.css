@@ -582,3 +582,78 @@ header .cart-info {
     margin-bottom: 30px;
   }
 }
+
+#join-colorful-bunch {
+  background-image: url("/assets/image/backgrounds/h3-background-img.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#join-colorful-bunch .context {
+  padding-top: 183px;
+  padding-bottom: 185px;
+}
+
+#join-colorful-bunch .join-title h3 {
+  color: #ffffff;
+  margin: 0 0 19px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+#join-colorful-bunch input[type="email"] {
+  color: #959595;
+  font-size: 12px;
+  background-color: white;
+  margin: 0px -6px 15px;
+  padding: 19px 18px;
+  font-family: Montserrat, sans-serif;
+  width: 27%;
+  border: none;
+}
+
+#join-colorful-bunch input[type="submit"] {
+  width: 13%;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  padding: 19px 43px;
+  color: #fff;
+  background-color: #f34f3f;
+  border: none;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 576px) {
+  #join-colorful-bunch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #join-colorful-bunch input[type="email"] {
+    color: #959595;
+    font-size: 12px;
+    background-color: white;
+    padding: 11px 7px;
+    font-family: Montserrat, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 97px;
+  }
+  #join-colorful-bunch input[type="submit"] {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 81px;
+    color: #fff;
+    background-color: #f34f3f;
+    border: none;
+    text-transform: uppercase;
+    display: block;
+    margin-left: 74px;
+  }
+}
