@@ -1,5 +1,11 @@
 #portfolio-flowers {
+  .flower-options {
+    display: flex;
+  }
   .flower-options-categories {
+    ul {
+      display: flex;
+    }
     li {
       margin-right: $base * 8;
       display: inline-block;
@@ -76,19 +82,46 @@
       }
     }
   }
+  .load-more-button {
+    padding: 70px 0 80px 0;
+    text-align: center;
+    button {
+      color: #fff;
+      background-color: #f34f3f;
+      border: 1px solid transparent;
+      padding: 22px 52px;
+      font-family: Montserrat, sans-serif;
+      font-size: $base * 3;
+      &:hover {
+        border-color: #ff3d2a;
+        background-color: #ff3d2a;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
-  #flower-items {
-    .flower-categories-list {
+  #portfolio-flowers {
+    .flower-options-categories {
       li {
-        display: none;
+        margin-right: 29px;
       }
     }
-    .flower-categories {
-      .category-button {
-        display: flex;
+  }
+}
+@media screen and (max-width: 567px) {
+  #portfolio-flowers {
+    .flower-options {
+      display: block;
+      ul {
+        display: block;
       }
+    }
+    .item-image {
+      padding: 10px;
+    }
+    .item-body {
+      padding: 10px;
     }
   }
 }

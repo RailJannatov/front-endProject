@@ -12,3 +12,13 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  #portfolio-intro {
+    .portfolio-intro-text {
+      padding: 59px 30px;
+      h1 {
+        font-size: 36px;
+      }
+    }
+  }
+}

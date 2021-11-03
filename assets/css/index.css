@@ -1361,6 +1361,27 @@ header .cart-info {
   font-weight: 400;
 }
 
+@media screen and (max-width: 768px) {
+  #portfolio-intro .portfolio-intro-text {
+    padding: 59px 30px;
+  }
+  #portfolio-intro .portfolio-intro-text h1 {
+    font-size: 36px;
+  }
+}
+
+#portfolio-flowers .flower-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#portfolio-flowers .flower-options-categories ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #portfolio-flowers .flower-options-categories li {
   margin-right: 32px;
   display: inline-block;
@@ -1447,13 +1468,42 @@ header .cart-info {
   color: #f34f3f;
 }
 
+#portfolio-flowers .load-more-button {
+  padding: 70px 0 80px 0;
+  text-align: center;
+}
+
+#portfolio-flowers .load-more-button button {
+  color: #fff;
+  background-color: #f34f3f;
+  border: 1px solid transparent;
+  padding: 22px 52px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+}
+
+#portfolio-flowers .load-more-button button:hover {
+  border-color: #ff3d2a;
+  background-color: #ff3d2a;
+}
+
 @media screen and (max-width: 768px) {
-  #flower-items .flower-categories-list li {
-    display: none;
+  #portfolio-flowers .flower-options-categories li {
+    margin-right: 29px;
   }
-  #flower-items .flower-categories .category-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+}
+
+@media screen and (max-width: 567px) {
+  #portfolio-flowers .flower-options {
+    display: block;
+  }
+  #portfolio-flowers .flower-options ul {
+    display: block;
+  }
+  #portfolio-flowers .item-image {
+    padding: 10px;
+  }
+  #portfolio-flowers .item-body {
+    padding: 10px;
   }
 }
