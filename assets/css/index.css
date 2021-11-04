@@ -52,6 +52,22 @@ header .nav-list .head-links li .sub-menu-links {
   visibility: hidden;
   opacity: 0;
   position: absolute;
+  top: 68px;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-1em);
+  transform: translateY(-1em);
+  z-index: -1;
+  background-color: #fff;
+  -webkit-transition: all 0.7s ease-in-out 0s, visibility 0s;
+  -webkit-transition: all 0.7s ease-in-out, visibility 0s;
+  transition: all 0.7s ease-in-out, visibility 0s;
+}
+
+header .nav-list .head-links li .sub-menu-links .sub-menu-links-2 {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
   top: 75px;
   left: 0;
   width: 100%;
@@ -64,8 +80,20 @@ header .nav-list .head-links li .sub-menu-links {
   transition: all 0.7s ease-in-out, visibility 0s;
 }
 
-header .nav-list .head-links li .sub-menu-links ul {
-  padding: 19px 0;
+header .nav-list .head-links li .sub-menu-links .sub-menu-links-2:hover:first-child {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+header .nav-list .head-links li .sub-menu-links .sub-menu-links-2 .classic:hover .sub-menu-links-2 {
+  visibility: visible;
+  opacity: 1;
+  z-index: 888;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
 }
 
 header .nav-list .head-links li .sub-menu-links li {
@@ -78,7 +106,7 @@ header .nav-list .head-links li .sub-menu-links li a {
   line-height: 19px;
 }
 
-header .nav-list .head-links li:hover .sub-menu-links {
+header .nav-list .head-links li .classic:hover:hover .sub-menu-links {
   visibility: visible;
   opacity: 1;
   z-index: 1;
@@ -1006,8 +1034,24 @@ header .nav-list .head-links li .sub-menu-links {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 77px;
+  top: 67px;
   left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-1em);
+  transform: translateY(-1em);
+  z-index: -1;
+  background-color: #fff;
+  -webkit-transition: all 0.7s ease-in-out 0s, visibility 0s;
+  -webkit-transition: all 0.7s ease-in-out, visibility 0s;
+  transition: all 0.7s ease-in-out, visibility 0s;
+}
+
+header .nav-list .head-links li .sub-menu-links .sub-menu-links-2 {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 32px;
+  left: -202px;
   width: 100%;
   -webkit-transform: translateY(-1em);
   transform: translateY(-1em);
@@ -1030,6 +1074,14 @@ header .nav-list .head-links li .sub-menu-links li a {
   font-size: 13px;
   color: #737373;
   line-height: 19px;
+}
+
+header .nav-list .head-links li .sub-menu-links li:hover .sub-menu-links-2 {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
 }
 
 header .nav-list .head-links li:hover .sub-menu-links {
@@ -1750,4 +1802,62 @@ header .cart-info {
 #accordions .element-context p {
   font-family: Lora, serif;
   font-size: 15px;
+}
+
+#related-products .related-products-title h3 {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin: 87px 0 24px;
+}
+
+#related-products .item {
+  margin: 0 0 40px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#related-products .item .item-image {
+  overflow: hidden;
+}
+
+#related-products .item .item-image img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+#related-products .item .item-image:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#related-products .item-body {
+  text-align: center;
+  margin: 23px 0 0;
+}
+
+#related-products .item-body .price-second {
+  color: #2d2b2b;
+}
+
+#related-products .item-body h6 {
+  color: #1b1b1b;
+  font-family: Montserrat, sans-serif;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+#related-products .item-body a {
+  color: #afafaf;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
 }

@@ -43,6 +43,5 @@ $(document).ready(function(){
         $(this).next().slideToggle(1000);
         $(".active").removeClass("active")
         $(this).addClass("active");
-   
     })
 })
