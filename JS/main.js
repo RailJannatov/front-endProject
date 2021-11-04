@@ -36,3 +36,10 @@ $('.flower-options-categories ul li').click(function(){
     return false;
 
 })
+
+$(document).ready(function(){
+    $(".element").click(function(){
+        $(".element-context").not($(this).next()).slideUp(1000)
+        $(this).next().slideToggle(1000);
+    })
+})

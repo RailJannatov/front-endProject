@@ -1,0 +1,17 @@
+#accordions {
+  .element {
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    padding: 13px 20px 13px 40px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .element-context {
+    display: none;
+  }
+}

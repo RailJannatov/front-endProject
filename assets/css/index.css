@@ -52,7 +52,7 @@ header .nav-list .head-links li .sub-menu-links {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 77px;
+  top: 75px;
   left: 0;
   width: 100%;
   -webkit-transform: translateY(-1em);
@@ -1654,4 +1654,43 @@ header .cart-info {
 
 #mini-articles .care-item {
   margin-top: -134px;
+}
+
+#accordions-intro {
+  background-color: #fafaf9;
+  padding: 59px 0;
+}
+
+#accordions-intro .accordions-intro-text h1 {
+  font-size: 50px;
+  line-height: 1.32em;
+  color: #0e0e0e;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 567px) {
+  #accordions-intro {
+    padding: 59px 0;
+  }
+  #accordions-intro .accordions-intro-text h1 {
+    font-size: 36px;
+  }
+}
+
+#accordions .element {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  padding: 13px 20px 13px 40px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#accordions .element-context {
+  display: none;
 }
