@@ -1,4 +1,19 @@
 #accordions {
+  padding-top: 84px;
+  padding-bottom: 40px;
+  .top-accordion-item {
+    border: 1px solid #eee;
+  }
+  .bottom-accordion-item {
+    border-bottom: 1px solid #eee;
+  }
+  .main-accordion-item {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .active {
+    background-color: #f34f3f;
+  }
   .element {
     color: #1b1b1b;
     font-family: Montserrat;
@@ -7,11 +22,40 @@
     font-weight: 500;
     letter-spacing: 0.1em;
     padding: 13px 20px 13px 40px;
-    border: 1px solid #eee;
     margin-bottom: 20px;
     cursor: pointer;
+    position: relative;
+    .minus-opacity {
+      opacity: 0;
+      color: #fff;
+      position: absolute;
+      left: 15px;
+      top: 19px;
+    }
+    .plus-opacity {
+      opacity: 1;
+      position: absolute;
+      left: 15px;
+      top: 19px;
+    }
+    &:hover {
+      color: #fff;
+      background-color: #f34f3f;
+      .plus-opacity {
+        opacity: 0;
+      }
+      .minus-opacity {
+        opacity: 1;
+        color: #fff;
+      }
+    }
   }
   .element-context {
     display: none;
+    padding: 34px 0 20px;
+    p {
+      font-family: Lora, serif;
+      font-size: 15px;
+    }
   }
 }

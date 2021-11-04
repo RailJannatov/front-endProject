@@ -1658,7 +1658,7 @@ header .cart-info {
 
 #accordions-intro {
   background-color: #fafaf9;
-  padding: 59px 0;
+  padding: 72px 0;
 }
 
 #accordions-intro .accordions-intro-text h1 {
@@ -1678,6 +1678,28 @@ header .cart-info {
   }
 }
 
+#accordions {
+  padding-top: 84px;
+  padding-bottom: 40px;
+}
+
+#accordions .top-accordion-item {
+  border: 1px solid #eee;
+}
+
+#accordions .bottom-accordion-item {
+  border-bottom: 1px solid #eee;
+}
+
+#accordions .main-accordion-item {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+#accordions .active {
+  background-color: #f34f3f;
+}
+
 #accordions .element {
   color: #1b1b1b;
   font-family: Montserrat;
@@ -1686,11 +1708,46 @@ header .cart-info {
   font-weight: 500;
   letter-spacing: 0.1em;
   padding: 13px 20px 13px 40px;
-  border: 1px solid #eee;
   margin-bottom: 20px;
   cursor: pointer;
+  position: relative;
+}
+
+#accordions .element .minus-opacity {
+  opacity: 0;
+  color: #fff;
+  position: absolute;
+  left: 15px;
+  top: 19px;
+}
+
+#accordions .element .plus-opacity {
+  opacity: 1;
+  position: absolute;
+  left: 15px;
+  top: 19px;
+}
+
+#accordions .element:hover {
+  color: #fff;
+  background-color: #f34f3f;
+}
+
+#accordions .element:hover .plus-opacity {
+  opacity: 0;
+}
+
+#accordions .element:hover .minus-opacity {
+  opacity: 1;
+  color: #fff;
 }
 
 #accordions .element-context {
   display: none;
+  padding: 34px 0 20px;
+}
+
+#accordions .element-context p {
+  font-family: Lora, serif;
+  font-size: 15px;
 }

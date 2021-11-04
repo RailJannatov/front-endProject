@@ -39,7 +39,10 @@ $('.flower-options-categories ul li').click(function(){
 
 $(document).ready(function(){
     $(".element").click(function(){
-        $(".element-context").not($(this).next()).slideUp(1000)
+     console.log( $(".element-context").not($(this).next()).slideUp(1000))  
         $(this).next().slideToggle(1000);
+        $(".active").removeClass("active")
+        $(this).addClass("active");
+   
     })
 })
