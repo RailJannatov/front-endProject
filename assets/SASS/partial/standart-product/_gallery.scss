@@ -1,0 +1,14 @@
+#gallery {
+  margin: 60px 0 105px;
+  .selectable-images {
+    width: 118px;
+    height: 147px;
+    margin-bottom: 14px;
+  }
+  .popup {
+    img {
+      max-width: 498px;
+      height: 642px;
+    }
+  }
+}

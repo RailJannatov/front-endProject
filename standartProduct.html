@@ -13,10 +13,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display&display=swap"
         rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ef591a1a0e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 
@@ -176,17 +180,120 @@
         </div>
     </section>
     <!-- product-list end -->
-    <section id="addToCard">
+    <section id="gallery">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-md-4"></div>
-                <div class="col-lg-4 col-md-8"></div>
-                <div class="col-lg-6 col-md-12"></div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="selectable-images">
+                        <img src="./assets/image/gallery/shop-2-gallery-1-300x400.jpg" class="img-fluid">
+                    </div>
+                    <div class="selectable-images">
+                        <img src="./assets/image/gallery/shop-2-gallery-2-300x400.jpg" class="img-fluid">
+                    </div>
+                    <div class="selectable-images">
+                        <img src="./assets/image/gallery/shop-2-gallery-3.jpg" class="img-fluid">
+                    </div>
+                    <div class="selectable-images">
+                        <img src="./assets/image/gallery/shop-2-gallery-4-300x400.jpg" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="popup">
+                        <img src="./assets/image/gallery/shop-2-img.jpg" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12"></div>
             </div>
         </div>
     </section>
 
-    <section id="tabs"></section>
+    <section id="tabs">
+        <div class="container">
+            <div class="row">
+                <div class="tab-menu">
+                    <div class="content-titles">
+                        <div data-id="1" class="active content-title">Description </div>
+                        <div data-id="2" class="content-title">
+                            Additional Information
+                        </div>
+                        <div data-id="3" class="content-title">Reviews (2)
+                        </div>
+                    </div>
+                    <div class="content-body">
+                        <div data-id="1" class="item">
+                            <h2>The power of flowers</h2>
+                            <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla
+                                ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+                                augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+                                tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem
+                                neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                                Maecenas nec odio et ante</p>
+
+                        </div>
+                        <div data-id="2" class="item  d-none">
+                            <p>
+                                <span class="bold-weight"> Weight</span> 1 kg
+                            </p>
+                            <p><span class="bold-weight">Dimensions</span> 30 x 30 x 50 cm</p>
+                        </div>
+                        <div data-id="3" class="item d-none">
+                            <div class="reviews">
+                                <h2>Reviews</h2>
+                                <div class="feedbacks">
+                                    <div class="user-image">
+                                        <img src="./assets/image/user-img-1-100x100.png" alt="user image"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="user-feedback ">
+                                        <strong class="user-name">JOSHUA GARCIA</strong>
+                                        <span>27.04.2018</span>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                            ligula
+                                            eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis
+                                            parturient montes, nascetur ridiculus mus.</p>
+                                    </div>
+
+                                </div>
+                                <div class="feedbacks">
+                                    <div class="user-image mt-3">
+                                        <img src="./assets/image/user-img-2-100x100.png" alt="user image"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="user-feedback mt-3 ">
+                                        <strong class="user-name">JOAN STANLEY</strong>
+                                        <span>27.04.2018</span>
+                                        <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam
+                                            semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                                            blandit vel, luctus pulvinar, hendrerit
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="your-feedback">
+                                <h2>Add a review</h2>
+                                <p>Your email address will not be published. Required fields are marked *</p>
+                                <p>Your review *</p>
+                                <form action="">
+                                    <textarea cols="45" rows="8" required></textarea>
+                                    <label for="userName">Name *</label>
+                                    <input type="text" name="userName" required>
+                                    <label for="userEmail">Email *</label>
+                                    <input type="email" name="userEmail" required>
+                                    <input type="checkbox" name="checkbox">
+                                    <label for="checkbox">
+                                        Save my name, email, and website in this browser for the next time I
+                                        comment.</label>
+                                    <input type="submit">
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- related-prdoucts start -->
     <section id="related-products">
         <div class="container">

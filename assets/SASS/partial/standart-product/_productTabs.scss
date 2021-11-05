@@ -1,0 +1,112 @@
+#tabs {
+  .content-titles {
+    display: flex;
+    cursor: pointer;
+  }
+  .content-title {
+    border: 1px solid #eee;
+    padding: 15px 47px;
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+  }
+  .active {
+    background-color: #f34f3f;
+    color: #fff;
+  }
+
+  .content-body {
+    padding: 70px 0px 80px;
+    .reviews {
+      h2 {
+        margin: 3px 0 60px;
+      }
+    }
+
+    h2 {
+      font-size: 30px;
+      line-height: 1.4em;
+      color: #2b2b2b;
+      font-family: "Playfair Display", serif;
+      font-weight: 400;
+      margin: 0px 0px 12px;
+    }
+    p {
+      margin: 14px 0 0;
+      line-height: 1.6em;
+      font-family: Lora, serif;
+      color: #6d6a6a;
+      font-size: 15px;
+    }
+    .bold-weight {
+      color: #2b2b2b;
+      width: 1%;
+      padding: 0 10px 0 0;
+      font-size: 12px;
+    }
+    .feedbacks {
+      display: flex;
+      .user-feedback {
+        margin-left: 20px;
+        margin-left: 27px;
+        margin-top: -14px;
+      }
+      img {
+        width: 70px;
+      }
+      .user-name {
+        color: #1b1b1b;
+        font-weight: 500;
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        line-height: 15px;
+        font-size: 12px;
+      }
+      span {
+        font-size: 10px;
+        color: #afafaf;
+        letter-spacing: 0.15em;
+        margin: 0 0 0 3px;
+        font-family: Montserrat, sans-serif;
+      }
+    }
+  }
+  .your-feedback {
+    margin-top: 36px;
+  }
+  textarea,
+  input[type]:not([type="submit"]) {
+    width: 100%;
+    padding: 19px 18px;
+  }
+  label {
+    font-family: Lora, serif;
+    color: #6d6a6a;
+    font-size: 15px;
+    display: block;
+  }
+  input[type="submit"] {
+    padding: 70px 0 80px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #f34f3f;
+    border: 1px solid transparent;
+    padding: 22px 52px;
+    font-family: Montserrat, sans-serif;
+    font-size: $base * 3;
+    margin-top: 20px;
+    border: 1px solid #e8e8e8;
+    &:hover {
+      border-color: #ff3d2a;
+      background-color: #ff3d2a;
+    }
+  }
+  input[type="checkbox"] {
+    width: 30px !important;
+  }
+}

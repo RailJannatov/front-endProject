@@ -8,7 +8,6 @@
 @import "./partial/home/blog";
 @import "./partial/home/miniSlider";
 @import "./partial/home/footer";
-@import "./partial/about-us/aboutUsNavbar";
 @import "./partial/about-us/aboutUsIntro";
 @import "./partial/about-us/goalPage";
 @import "./partial/about-us/aboutUsFlowerExperts";
@@ -19,7 +18,11 @@
 @import "./partial/blogMasonry/miniArticles";
 @import "./partial/accordions/accordionsIntro";
 @import "./partial/accordions/accordionElement";
-@import "./partial/standart-product/relateProduct"; // body {
+@import "./partial/standart-product/relateProduct";
+@import "./partial/standart-product/productTabs";
+@import "./partial/standart-product/gallery";
+
+// body {
 //   font-family: Montserrat, sans-serif;
 //   font-size: 9px;
 //   line-height: 24px;
