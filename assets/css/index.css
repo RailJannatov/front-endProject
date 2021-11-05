@@ -1634,6 +1634,17 @@ footer .footer-partners .social-navigations a:hover {
   text-decoration: none;
 }
 
+@media screen and (max-width: 567px) {
+  #related-products .related-products-title {
+    padding-left: 55px;
+  }
+  #related-products .item img {
+    height: 652px;
+    width: 505px;
+    padding: 55px;
+  }
+}
+
 #tabs .content-titles {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1751,6 +1762,7 @@ footer .footer-partners .social-navigations a:hover {
   font-family: Montserrat, sans-serif;
   font-size: 12px;
   margin-top: 20px;
+  border: 1px solid #e8e8e8;
 }
 
 #tabs input[type="submit"]:hover {
@@ -1760,6 +1772,12 @@ footer .footer-partners .social-navigations a:hover {
 
 #tabs input[type="checkbox"] {
   width: 30px !important;
+}
+
+@media screen and (max-width: 576px) {
+  #tabs .content-body h2 {
+    font-size: 25px;
+  }
 }
 
 #gallery {
@@ -1772,7 +1790,200 @@ footer .footer-partners .social-navigations a:hover {
   margin-bottom: 14px;
 }
 
+#gallery .rows {
+  display: block;
+}
+
+#gallery .popup {
+  margin-left: -79px;
+}
+
 #gallery .popup img {
   max-width: 498px;
   height: 642px;
+}
+
+#gallery .mfp-arrow-left {
+  position: absolute !important;
+  left: 25% !important;
+}
+
+#gallery .next-position {
+  position: absolute;
+  left: 25%;
+}
+
+#gallery .item-description {
+  padding-left: 36px;
+}
+
+#gallery .item-description h2 {
+  font-size: 38px;
+  line-height: 1.447em;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+#gallery .item-description span {
+  font-family: Montserrat, sans-serif;
+  display: block;
+  margin: 4px 0 0;
+  line-height: 1;
+  color: #afafaf;
+}
+
+#gallery .item-description p {
+  margin: 23px 0 32px;
+  color: #6d6a6a;
+  font-size: 15px;
+  font-family: Lora, serif;
+}
+
+#gallery .item-add-to-card {
+  position: relative;
+}
+
+#gallery .item-add-to-card input[type="text"] {
+  margin-left: 36px !important;
+  border: 1px solid #eee;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 50px;
+  height: 51px;
+  padding: 0 22px;
+  margin: 0 -0.3em 0 0;
+}
+
+#gallery .item-add-to-card input[type="submit"] {
+  background-color: #080808;
+  padding: 14px 42px;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.833em;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#gallery .item-add-to-card .input-text {
+  margin: 0;
+  position: absolute;
+  color: #999;
+  background-color: transparent;
+  left: 8%;
+  top: 9%;
+}
+
+#gallery .item-add-to-card span {
+  color: #999;
+  background-color: transparent;
+}
+
+#gallery .item-add-to-card .removeBtn {
+  position: absolute;
+  left: 33%;
+  top: 4%;
+}
+
+#gallery .item-add-to-card .addBtn {
+  position: absolute;
+  left: 39%;
+  top: 4%;
+}
+
+#gallery .item-add-to-card .quantityNumber {
+  position: absolute;
+  left: 35%;
+  top: 4%;
+}
+
+#gallery .product-details {
+  margin-left: 36px;
+  margin: 32px 37px 0;
+}
+
+#gallery .product-details span {
+  display: block;
+  color: #8b8b8b;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  margin: 0 0 7px;
+}
+
+#gallery .product-details span strong {
+  margin: 0 0 7px;
+  color: #2b2b2b;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  #gallery {
+    padding: 59px 49px;
+  }
+  #gallery .rows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #gallery .popup {
+    margin-left: 0;
+  }
+  #gallery .selectable-images {
+    width: calc(100% / 12 * 6);
+    height: auto;
+  }
+  #gallery .selectable-images img {
+    padding: 10px;
+  }
+  #gallery .ordered-item {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  #gallery .item-info {
+    margin-top: 175px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #gallery .rows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #gallery .selectable-images {
+    width: calc(100% / 12 * 6);
+    height: auto;
+  }
+  #gallery .selectable-images img {
+    padding: 10px;
+  }
+  #gallery .ordered-item {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  #gallery .popup {
+    margin-left: 0;
+  }
+  #gallery .item-description h2 {
+    font-size: 30px;
+  }
+  #gallery .content-title {
+    padding: 13px 10px;
+  }
+  #gallery .item-add-to-card input[type="submit"] {
+    display: block;
+    margin-left: 34px;
+  }
 }

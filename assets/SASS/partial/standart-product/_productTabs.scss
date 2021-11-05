@@ -110,3 +110,12 @@
     width: 30px !important;
   }
 }
+@media screen and(max-width:576px) {
+  #tabs {
+    .content-body {
+      h2 {
+        font-size: 25px;
+      }
+    }
+  }
+}
