@@ -73,6 +73,16 @@
     }
   }
 }
+.btnToTop {
+  color: #fff;
+  background-color: #f34f3f;
+  border: 1px solid #f34f3f;
+  font-size: 15px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
 @media screen and (max-width: 992px) {
   #blog {
     .blog-title {

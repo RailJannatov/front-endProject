@@ -49,10 +49,24 @@ $(document).ready(function () {
         gallery: {
             enabled: true
         }
+    });
 
-    })
-    console.log($('button .mfp arrow'));
 
+
+})
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 273) {
+            $('.btnToTop').show();
+        } else {
+            $('.btnToTop').hide();
+        }
+    });
+    $(".btnToTop").on("click", function () {
+        $("html").animate({
+            scrollTop: 0
+        }, "slow");
+    });
 })
 
 

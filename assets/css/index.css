@@ -434,6 +434,19 @@ header .cart-info {
           transform: scale(1.1);
 }
 
+#flower-items .item:hover .addToCard {
+  visibility: visible;
+  margin-left: 10px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#flower-items .item:hover .price {
+  visibility: hidden;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
 #flower-items .item-body {
   text-align: center;
   margin: 23px 0 0;
@@ -452,6 +465,16 @@ header .cart-info {
   text-transform: uppercase;
   font-size: 12px;
   margin-bottom: 0;
+}
+
+#flower-items .item-body .addToCard {
+  color: #afafaf;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
+  visibility: hidden;
+  margin-left: -85px;
 }
 
 #flower-items .item-body a {
@@ -769,6 +792,17 @@ header .cart-info {
   padding: 0 35px;
   font-family: "Lora", serif;
   margin: 12px 0 0;
+}
+
+.btnToTop {
+  color: #fff;
+  background-color: #f34f3f;
+  border: 1px solid #f34f3f;
+  font-size: 15px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
 }
 
 @media screen and (max-width: 992px) {
