@@ -35,7 +35,47 @@
     vertical-align: middle;
     cursor: pointer;
     margin-top: -6px;
-
+    .sub-menu-links {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      right: 100px;
+      -webkit-transform: translateY(-1em);
+      transform: translateY(-1em);
+      z-index: -1;
+      background-color: #fff;
+      -webkit-transition: all 0.7s ease-in-out 0s, visibility 0s;
+      transition: all 0.7s ease-in-out, visibility 0s;
+      .hovered ul {
+        min-width: 150px;
+      }
+      li {
+        font-size: 22px;
+        line-height: 1.363em;
+        margin: 10px 0;
+        color: #2b2b2b;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+      }
+      a {
+        font-size: 13px;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-family: $primary-family;
+        text-decoration: none;
+        color: #737373;
+        &:hover {
+          color: #000;
+          transition: 0.3s;
+        }
+      }
+    }
+    &:hover .sub-menu-links {
+      visibility: visible;
+      opacity: 1;
+      z-index: 99;
+      transform: translateY(0%);
+    }
     h6 {
       font-size: 12px;
       letter-spacing: 0.1em;

@@ -165,15 +165,39 @@
                     </i>
 
                 </span>
-                <span class="cart-info">cart ($0)</span>
+                <div class="cart-info">cart ($ <span class="prices-item-in-cart">0</span> )
+                    <div class="cart-basket">
+                        <ul class="list-unstyled">
+                            <li>No products in card</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div class="bar-icon">
                     <i class="fas fa-bars"></i>
                 </div>
             </nav>
             <!-- main-nav end -->
+            <div class="popup d-none">
+                <div class="modalBasket ">
+                    <span class="closeIcon">
+                        <i class="fas fa-window-close"></i>
+                    </span>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
 
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
         </div>
+
     </header>
     <!-- header end -->
     <main>
@@ -246,6 +270,35 @@
                     <div class="category-filter">
                         <h6>filter</h6>
                         <i class="fas fa-play"></i>
+                        <div class="sub-menu ">
+                            <ul class="list-unstyled sub-menu-links d-flex">
+                                <li> <span class="shop-drop-menu-title">Sort By</span>
+                                    <ul class="list-unstyled hovered-ul">
+                                        <li>
+                                            <a href="#">Default</a>
+                                        </li>
+                                        <li> <a href="#">Popularity</a>
+                                        </li>
+                                        <li><a href="#"> Newness</a> </li>
+                                        <li>
+                                            <a href="#">Price: Low to High</a>
+                                        </li>
+                                        <li> <a href="#">Price: High to Low</a> </li>
+                                    </ul>
+                                </li>
+                                <li><span class="shop-drop-menu-title">Price Range</span>
+                                    <ul class="list-unstyled priceByRange">
+                                        <li><a href="#" class="priceRange">All</a>
+                                        </li>
+                                        <li><a href="#" class="priceRange">$0-$10</a> </li>
+                                        <li> <a href="#" class="priceRange">$10-$20</a> </li>
+                                        <li> <a href="#" class="priceRange">$20-$30</a> </li>
+                                        <li><a href="#" class="priceRange">$30-$40</a> </li>
+                                        <li><a href="#" class="priceRange">40$+</a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -261,7 +314,7 @@
                                 </a>
 
                                 <a href="./standartProduct.html" class="price"><span class="addToCard">Add to
-                                        card</span> $259</a>
+                                        card</span> <span>$259</span> </a>
                             </div>
                         </div>
                     </div>
@@ -276,7 +329,7 @@
                                     <h6>FOXGLOVE FLOWER</h6>
                                 </a>
                                 <a href="./standartProduct.html" class="price"><span class="addToCard">Add to
-                                        card</span>$259</a>
+                                        card</span><span>$259</span></a>
                             </div>
                         </div>
                     </div>
@@ -291,7 +344,7 @@
                                     <h6>SWEET ALYSSUM</h6>
                                 </a>
                                 <a href="./standartProduct.html" class="price"><span class="addToCard">Add to
-                                        card</span>$259</a>
+                                        card</span><span>$259</span></a>
                             </div>
                         </div>
                     </div>
@@ -306,7 +359,7 @@
                                     <h6>spring snowflake</h6>
                                 </a>
                                 <a href="./standartProduct.html" class="price"><span class="addToCard">Add to
-                                        card</span>$170</a>
+                                        card</span><span>$170</span></a>
                             </div>
                         </div>
                     </div>
@@ -337,7 +390,7 @@
                                     <h6>ROCK SOAPWORT</h6>
                                 </a>
                                 <a href="./standartProduct.html" class="price"><span class="addToCard">Add to
-                                        card</span>$259</a>
+                                        card</span> <span>$259</span></a>
                             </div>
                         </div>
                     </div>
@@ -352,7 +405,7 @@
                                     <h6>summer savory</h6>
                                 </a>
                                 <a href="./standartProduct.html" class="price"><span class="addToCard">Add to
-                                        card</span>$259</a>
+                                        card</span> <span>$259</span></a>
                             </div>
                         </div>
                     </div>
@@ -367,7 +420,7 @@
                                     <h6>WILD ROSES</h6>
                                 </a>
                                 <a href="./standartProduct.html" class="price"><span class="addToCard">Add to
-                                        card</span>$259</a>
+                                        card</span> <span>$259</span></a>
                             </div>
                         </div>
                     </div>
