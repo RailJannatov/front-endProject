@@ -73,7 +73,7 @@
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 0.15em;
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       display: block;
       text-align: initial;
       color: #6d6a6a;
@@ -90,7 +90,7 @@
       background-color: #f34f3f;
       border: 1px solid transparent;
       padding: 22px 52px;
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       font-size: $base * 3;
       &:hover {
         border-color: #ff3d2a;
@@ -100,7 +100,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $mediu-sizes) {
   #portfolio-flowers {
     .flower-options-categories {
       li {
@@ -109,7 +109,7 @@
     }
   }
 }
-@media screen and (max-width: 567px) {
+@media screen and (max-width: $small-sizes) {
   #portfolio-flowers {
     .flower-options {
       display: block;

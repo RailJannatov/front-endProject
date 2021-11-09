@@ -15,10 +15,10 @@
       position: absolute;
       font-size: 10px;
       position: absolute;
-      background-color: #fff;
+      background-color: $white-color;
       padding: 12px 16px 10px;
       text-align: center;
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       top: 10px;
       left: 10px;
       letter-spacing: 0.15em;
@@ -27,7 +27,7 @@
       cursor: pointer;
       transition: color 0.2s ease-in-out;
       &:hover {
-        color: #f34f3f;
+        color: $button-color;
       }
     }
   }
@@ -37,16 +37,16 @@
     h3 {
       font-size: 22px;
       line-height: 1.363em;
-      color: #2b2b2b;
-      font-family: "Playfair Display", serif;
+      color: $primary-title-color;
+      font-family: $title-family;
       font-weight: 400;
       margin: 0 0 3px;
     }
     p {
       font-size: 15px;
-      color: #6d6a6a;
+      color: $item-paragraph-color;
       padding: 0 35px;
-      font-family: "Lora", serif;
+      font-family: $title-text-family;
       margin: 12px 0 0;
     }
   }
@@ -56,12 +56,12 @@
     h4 {
       font-size: 24px;
       line-height: 1.5em;
-      color: #2b2b2b;
-      font-family: "Playfair Display", serif;
+      color: $primary-title-color;
+      font-family: $title-family;
       font-weight: 400;
     }
     p {
-      color: #1b1b1b;
+      color: $primary-color;
       font-family: Montserrat;
       font-size: 12px;
       line-height: 2em;

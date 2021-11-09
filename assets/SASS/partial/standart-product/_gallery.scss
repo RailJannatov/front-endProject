@@ -28,12 +28,12 @@
     h2 {
       font-size: 38px;
       line-height: 1.447em;
-      color: #2b2b2b;
-      font-family: "Playfair Display", serif;
+      color: $primary-title-color;
+      font-family: $title-family;
       font-weight: 400;
     }
     span {
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       display: block;
       margin: 4px 0 0;
       line-height: 1;
@@ -105,21 +105,21 @@
     span {
       strong {
         margin: 0 0 7px;
-        color: #2b2b2b;
+        color: $primary-title-color;
         font-weight: 500;
         font-size: 12px;
-        font-family: Montserrat, sans-serif;
+        font-family: $primary-family;
       }
       display: block;
       color: #8b8b8b;
       font-size: 12px;
       font-weight: 500;
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       margin: 0 0 7px;
     }
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $medium-sizes) {
   #gallery {
     padding: 59px 49px;
     .rows {
@@ -144,7 +144,7 @@
     }
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: $small-sizes) {
   #gallery {
     .rows {
       display: flex;

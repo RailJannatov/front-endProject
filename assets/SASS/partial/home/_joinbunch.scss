@@ -9,9 +9,9 @@
   }
   .join-title {
     h3 {
-      color: #ffffff;
+      color: $white-color;
       margin: 0 0 19px;
-      font-family: "Playfair Display", serif;
+      font-family: $title-family;
       font-weight: 400;
       font-size: 30px;
       line-height: 1.4;
@@ -20,44 +20,44 @@
   input[type="email"] {
     color: #959595;
     font-size: 12px;
-    background-color: white;
+    background-color: $white-color;
     margin: 0px -6px 15px;
     padding: 19px 18px;
-    font-family: Montserrat, sans-serif;
+    font-family: $primary-family;
     width: 27%;
     border: none;
   }
   input[type="submit"] {
     width: 13%;
     font-size: 12px;
-    font-family: Montserrat, sans-serif;
+    font-family: $primary-family;
     padding: 19px 43px;
     color: #fff;
-    background-color: #f34f3f;
+    background-color: $button-color;
     border: none;
     text-transform: uppercase;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: $medium-sizes) {
   #join-colorful-bunch {
     display: flex;
     justify-content: center;
     input[type="email"] {
       color: #959595;
       font-size: 12px;
-      background-color: white;
+      background-color: $white-color;
       padding: 11px 7px;
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       display: block;
       margin-bottom: 10px;
       margin-left: 97px;
     }
     input[type="submit"] {
       font-size: 12px;
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       padding: 10px 81px;
-      color: #fff;
-      background-color: #f34f3f;
+      color: $white-color;
+      background-color: $button-color;
       border: none;
       text-transform: uppercase;
       display: block;

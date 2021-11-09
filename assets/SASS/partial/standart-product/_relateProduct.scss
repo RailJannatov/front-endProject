@@ -33,25 +33,18 @@
     }
 
     h6 {
-      color: $primary-color;
-      font-family: $primary-family;
-      line-height: 2em;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      font-size: $base * 3;
-      margin-bottom: 0;
+      @include headingStyle;
     }
     a {
       color: #afafaf;
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       font-size: $base * 3;
       line-height: 1;
       text-decoration: none;
     }
   }
 }
-@media screen and(max-width:567px) {
+@media screen and(max-width:$small-sizes) {
   #related-products {
     .related-products-title {
       padding-left: 55px;

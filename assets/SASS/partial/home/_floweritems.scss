@@ -53,8 +53,8 @@
         font-size: 22px;
         line-height: 1.363em;
         margin: 10px 0;
-        color: #2b2b2b;
-        font-family: "Playfair Display", serif;
+        color: $primary-color;
+        font-family: $title-family;
         font-weight: 400;
       }
       a {
@@ -133,7 +133,7 @@
     }
     .addToCard {
       color: #afafaf;
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       font-size: $base * 3;
       line-height: 1;
       text-decoration: none;
@@ -142,14 +142,14 @@
     }
     a {
       color: #afafaf;
-      font-family: Montserrat, sans-serif;
+      font-family: $primary-family;
       font-size: $base * 3;
       line-height: 1;
       text-decoration: none;
     }
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $medium-sizes) {
   #flower-items {
     .flower-categories-list {
       li {

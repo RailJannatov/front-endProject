@@ -47,7 +47,7 @@
 .text-image {
   margin-top: 10px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: $large-sizes) {
   .text-head {
     min-width: 180px;
     max-width: 261px;
@@ -55,13 +55,13 @@
       font-size: 30px;
       line-height: 29px;
       font-weight: 400;
-      font-family: "Playfair Display", serif;
+      font-family: $title-family;
     }
     h2 {
       font-size: 32px;
       line-height: 42px;
       font-weight: 400;
-      font-family: "Playfair Display", serif;
+      font-family: $title-family;
     }
   }
   .text-body {
@@ -76,19 +76,19 @@
     margin-top: 18px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $medium-sizes) {
   .text-head {
     h1 {
       font-size: 23px;
       line-height: 3px;
       font-weight: 400;
-      font-family: "Playfair Display", serif;
+      font-family: $title-family;
     }
     h2 {
       font-size: 24px;
       line-height: 31px;
       font-weight: 400;
-      font-family: "Playfair Display", serif;
+      font-family: $title-family;
     }
   }
   .text-body {
@@ -106,13 +106,13 @@
     }
   }
 }
-@media screen and (max-width: 567px) {
+@media screen and (max-width: $small-sizes) {
   .text-head {
     h1 {
       font-size: 18px;
       line-height: 3px;
       font-weight: 400;
-      font-family: "Playfair Display", serif;
+      font-family: $title-family;
     }
   }
   .text-body {

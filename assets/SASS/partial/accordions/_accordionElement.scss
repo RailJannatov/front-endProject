@@ -12,10 +12,10 @@
     padding-top: 120px;
   }
   .active {
-    background-color: #f34f3f;
+    background-color: $button-color;
   }
   .element {
-    color: #1b1b1b;
+    color: $primary-color;
     font-family: Montserrat;
     font-size: 12px;
     line-height: 2em;
@@ -27,7 +27,7 @@
     position: relative;
     .minus-opacity {
       opacity: 0;
-      color: #fff;
+      color: $white-color;
       position: absolute;
       left: 15px;
       top: 19px;
@@ -39,14 +39,14 @@
       top: 19px;
     }
     &:hover {
-      color: #fff;
-      background-color: #f34f3f;
+      color: $white-color;
+      background-color: $button-color;
       .plus-opacity {
         opacity: 0;
       }
       .minus-opacity {
         opacity: 1;
-        color: #fff;
+        color: $white-color;
       }
     }
   }
@@ -54,7 +54,7 @@
     display: none;
     padding: 34px 0 20px;
     p {
-      font-family: Lora, serif;
+      font-family: $title-text-family;
       font-size: 15px;
     }
   }

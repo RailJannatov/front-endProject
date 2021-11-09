@@ -3,14 +3,12 @@
   padding: 59px 144px;
   .product-list-intro-text {
     h1 {
-      font-size: 50px;
-      line-height: 1.32em;
+      @include mainHeadStyle;
       color: #0e0e0e;
-      font-family: "Playfair Display", serif;
       font-weight: 400;
     }
     p {
-      font-family: Lora, serif;
+      font-family: $title-text-family;
       font-size: 17px;
       font-style: italic;
       text-transform: none;

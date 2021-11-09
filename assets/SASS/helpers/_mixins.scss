@@ -1,5 +1,15 @@
-@mixin theme($theme: DarkGray) {
-  background: $theme;
-  box-shadow: 0 0 1px rgba($theme, 0.25);
-  color: #fff;
+@mixin headingStyle() {
+  color: $primary-color;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+@mixin mainHeadStyle {
+  font-size: 50px;
+  line-height: 1.32em;
+  font-family: $title-family;
 }

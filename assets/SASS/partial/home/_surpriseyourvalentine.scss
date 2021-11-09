@@ -22,15 +22,15 @@
       font-family: $title-text-family;
       margin-bottom: 32px;
 
-      color: #6d6a6a;
+      color: $item-paragraph-color;
     }
     .valentine-word {
-      color: #f34f3f;
+      color: $button-color;
     }
     .icon-info {
       font-size: 17px;
       font-family: $title-text-family;
-      color: #6d6a6a;
+      color: $item-paragraph-color;
       margin-bottom: 19px;
       img {
         margin-right: 13px;
@@ -38,7 +38,7 @@
     }
   }
 }
-@media screen and (max-width: 567px) {
+@media screen and (max-width: $small-sizes) {
   #surprise-your-valentine {
     .surprise-your-valentine-body {
       h2 {

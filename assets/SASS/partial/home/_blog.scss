@@ -1,23 +1,24 @@
+$blog-bg-color: #f8f8f8;
 #blog {
-  background-color: #f8f8f8;
+  background-color: $blog-bg-color;
   padding-bottom: 81px;
   .blog-title {
     padding-top: 98px;
     padding-bottom: 68px;
     h2 {
-      font-size: 38px;
+      font-size: $base * 9 +2;
       line-height: 1.447em;
-      color: #2b2b2b;
-      font-family: "Playfair Display", serif;
+      color: $primary-title-color;
+      font-family: $title-family;
       font-weight: 400;
       margin: 0 0 19px;
     }
 
     p {
-      font-size: 17px;
+      font-size: $base * 4 +1;
       line-height: 29px;
-      font-family: "Lora", serif;
-      color: #6d6a6a;
+      font-family: $title-text-family;
+      color: $item-paragraph-color;
       padding: 0 303px;
       margin: 14px 0 0;
     }
@@ -35,21 +36,21 @@
     }
     .date-in-image {
       position: absolute;
-      font-size: 10px;
+      font-size: $base * 2 +2;
       position: absolute;
-      background-color: #fff;
+      background-color: $white-color;
       padding: 12px 16px 10px;
       text-align: center;
-      font-family: Montserrat, sans-serif;
-      top: 10px;
-      left: 10px;
+      font-family: $primary-family;
+      top: $base * 2 +2;
+      left: $base * 2 +2;
       letter-spacing: 0.15em;
       line-height: 1em;
       z-index: 8888;
       cursor: pointer;
       transition: color 0.2s ease-in-out;
       &:hover {
-        color: #f34f3f;
+        color: $button-color;
       }
     }
   }
@@ -57,33 +58,33 @@
     margin: 0 0 3px;
     text-align: center;
     h3 {
-      font-size: 22px;
+      font-size: $base * 5;
       line-height: 1.363em;
-      color: #2b2b2b;
-      font-family: "Playfair Display", serif;
+      color: $primary-title-color;
+      font-family: $title-family;
       font-weight: 400;
       margin: 0 0 3px;
     }
     p {
       font-size: 15px;
-      color: #6d6a6a;
+      color: $item-paragraph-color;
       padding: 0 35px;
-      font-family: "Lora", serif;
+      font-family: $title-text-family;
       margin: 12px 0 0;
     }
   }
 }
 .btnToTop {
-  color: #fff;
-  background-color: #f34f3f;
-  border: 1px solid #f34f3f;
+  color: $white-color;
+  background-color: $button-color;
+  border: 1px solid $button-color;
   font-size: 15px;
   position: fixed;
   bottom: 25px;
   right: 25px;
   display: none;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: $large-sizes) {
   #blog {
     .blog-title {
       p {
@@ -92,11 +93,11 @@
     }
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: $medium-sizes) {
   #blog {
     .blog-title {
       h2 {
-        font-size: 30px;
+        font-size: $base * 7 +2;
       }
       p {
         padding: 0;
@@ -104,7 +105,7 @@
     }
     .blog-item {
       .item-image {
-        padding: 25px;
+        padding: $base * 6 +1;
       }
       .date-in-image {
         top: 31px;
@@ -112,7 +113,7 @@
       }
       .item-body {
         h3 {
-          font-size: 18px;
+          font-size: $base * 4+2;
         }
       }
     }

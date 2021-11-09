@@ -945,7 +945,7 @@ header .cart-info:hover .cart-basket {
 #blog .blog-title p {
   font-size: 17px;
   line-height: 29px;
-  font-family: "Lora", serif;
+  font-family: Lora, serif;
   color: #6d6a6a;
   padding: 0 303px;
   margin: 14px 0 0;
@@ -995,7 +995,7 @@ header .cart-info:hover .cart-basket {
 }
 
 #blog .item-body h3 {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.363em;
   color: #2b2b2b;
   font-family: "Playfair Display", serif;
@@ -1007,7 +1007,7 @@ header .cart-info:hover .cart-basket {
   font-size: 15px;
   color: #6d6a6a;
   padding: 0 35px;
-  font-family: "Lora", serif;
+  font-family: Lora, serif;
   margin: 12px 0 0;
 }
 
@@ -1674,7 +1674,7 @@ footer .footer-partners .social-navigations a:hover {
   font-size: 15px;
   color: #6d6a6a;
   padding: 0 35px;
-  font-family: "Lora", serif;
+  font-family: Lora, serif;
   margin: 12px 0 0;
 }
 
@@ -2025,7 +2025,7 @@ footer .footer-partners .social-navigations a:hover {
   width: 30px !important;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 567px) {
   #tabs .content-body h2 {
     font-size: 25px;
   }
@@ -2204,7 +2204,7 @@ footer .footer-partners .social-navigations a:hover {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 567px) {
   #gallery .rows {
     display: -webkit-box;
     display: -ms-flexbox;

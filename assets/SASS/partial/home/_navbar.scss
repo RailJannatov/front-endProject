@@ -1,7 +1,7 @@
 .fixed-header {
   position: absolute;
-  top: 10px;
-  right: 264px;
+  top: $base * 2 +2;
+  right: $base * 66;
   z-index: 9999;
 }
 .fixed {
@@ -11,7 +11,7 @@
   width: 100%;
   left: 0;
   right: 0;
-  background-color: #fff;
+  background-color: $white-color;
   z-index: 99999;
 }
 .fixed-logo {
@@ -48,7 +48,7 @@ header {
   }
   .sub-menu {
     .shop-drop-menu-title {
-      font-family: "Playfair Display", serif;
+      font-family: $title-family;
       font-size: 22px;
       text-transform: none;
       line-height: 1.1em;
@@ -79,7 +79,7 @@ header {
           width: 180px;
           transform: translateY(-1em);
           z-index: -1;
-          background-color: #fff;
+          background-color: $white-color;
           transition: all 0.7s ease-in-out, visibility 0s;
           .sub-menu-links-2 {
             visibility: hidden;
@@ -90,7 +90,7 @@ header {
             width: 120px;
             transform: translateY(-1em);
             z-index: -1;
-            background-color: #fff;
+            background-color: $white-color;
             transition: all 0.7s ease-in-out, visibility 0s;
           }
 
@@ -150,7 +150,7 @@ header {
       left: 0;
       width: 100%;
       z-index: 9999;
-      background-color: #fff;
+      background-color: $white-color;
     }
   }
   .search-icon {
@@ -166,15 +166,15 @@ header {
       position: relative;
       font-size: $base * 4 +1;
       .items-in-bag {
-        font-family: Montserrat, sans-serif;
+        font-family: $primary-family;
         position: absolute;
         top: -4px;
         left: 8px;
         width: 13px;
         height: 13px;
-        background-color: #f34f3f;
+        background-color: $button-color;
         font-size: 8px;
-        color: #fff;
+        color: $white-color;
         font-weight: 600;
         line-height: 1.5em;
         border-radius: 50%;
@@ -191,14 +191,14 @@ header {
     right: 96px;
     transform: translateY(-1em);
     z-index: -1;
-    background-color: #fff;
+    background-color: $white-color;
     transition: all 0.9s ease-in-out, visibility 0s;
     ul {
       li {
         color: #737373;
         font-size: 13px;
         font-weight: 500;
-        font-family: Montserrat, sans-serif;
+        font-family: $primary-family;
       }
     }
   }
@@ -228,7 +228,7 @@ header {
     }
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: $xl-large-sizes) {
   header {
     .main-nav {
       display: inline-block;
@@ -259,7 +259,7 @@ header {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: $large-sizes) {
   header {
     .main-nav {
       justify-content: space-between;
@@ -312,7 +312,7 @@ header {
   top: 0;
   background: #f00;
   padding: 10px 15px;
-  color: #fff;
+  color: $white-color;
   cursor: pointer;
 }
 .cartBox .cart i:hover {
